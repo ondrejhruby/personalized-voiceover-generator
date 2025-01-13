@@ -1,0 +1,8 @@
+coqui-tts==0.25
+torch
+fastapi
+uvicorn
+pydub
+ffmpeg-python
+numpy
+librosa
