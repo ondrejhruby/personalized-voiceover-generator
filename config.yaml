@@ -1,0 +1,75 @@
+# Voice Cloning Configuration File
+# Edit this file to customize your voice cloning setup
+
+# Voice profiles - Add your voice samples here
+voices:
+  # Example voice configuration
+  # my_voice:
+  #   sample_path: voices/my_voice.wav
+  #   description: "My personal voice"
+  #   language: en
+  
+  # female_voice:
+  #   sample_path: voices/female.wav
+  #   description: "Female narrator voice"
+  #   language: en
+  
+  # spanish_voice:
+  #   sample_path: voices/spanish.wav
+  #   description: "Spanish speaker"
+  #   language: es
+
+# Model configuration
+model:
+  # XTTS v2 model name (don't change unless you know what you're doing)
+  name: tts_models/multilingual/multi-dataset/xtts_v2
+  
+  # Temperature controls randomness/creativity
+  # Lower = more consistent/robotic (0.1-0.5)
+  # Higher = more varied/natural (0.6-1.0)
+  # Recommended: 0.7
+  temperature: 0.7
+  
+  # Speech speed multiplier
+  # 0.5 = half speed (slower)
+  # 1.0 = normal speed
+  # 1.5 = 1.5x speed (faster)
+  # Recommended: 1.0
+  speed: 1.0
+
+# Output audio configuration
+output:
+  # Output format: 'wav' or 'mp3'
+  # WAV = lossless, larger files
+  # MP3 = compressed, smaller files
+  format: wav
+  
+  # Sample rate in Hz
+  # 44100 = CD quality (recommended for TikTok)
+  # 48000 = Professional quality
+  # 22050 = Lower quality, smaller files
+  sample_rate: 44100
+  
+  # Normalize audio volume for consistent loudness
+  # Recommended: true for TikTok
+  normalize: true
+
+# Supported languages (for reference)
+# Use these language codes with the --language parameter:
+#   en = English
+#   es = Spanish
+#   fr = French
+#   de = German
+#   it = Italian
+#   pt = Portuguese
+#   pl = Polish
+#   tr = Turkish
+#   ru = Russian
+#   nl = Dutch
+#   cs = Czech
+#   ar = Arabic
+#   zh-cn = Chinese (Simplified)
+#   ja = Japanese
+#   hu = Hungarian
+#   ko = Korean
+
