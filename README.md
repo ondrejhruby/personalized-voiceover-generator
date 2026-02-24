@@ -26,13 +26,13 @@ A high-quality, open-source voice cloning system using **Coqui XTTS v2** to crea
 ### System Requirements
 
 **Minimum:**
-- Python 3.8 or higher
+- Python 3.10 or higher
 - 4GB RAM
 - 2GB storage space
 - CPU (Intel/AMD/Apple Silicon)
 
 **Recommended:**
-- Python 3.9+
+- Python 3.11+ (tested on Python 3.14.)
 - 8GB+ RAM
 - NVIDIA GPU with 4GB+ VRAM (for faster generation)
 - 5GB storage space
@@ -47,8 +47,7 @@ A high-quality, open-source voice cloning system using **Coqui XTTS v2** to crea
 ### 1. Clone or Download This Repository
 
 ```bash
-cd /path/to/your/projects
-# If you haven't already, you're in the right place!
+cd personalized-voiceover-generator
 ```
 
 ### 2. Install Python Dependencies
